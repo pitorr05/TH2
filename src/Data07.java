@@ -19,3 +19,17 @@ public class Data07 {
         s.close();                            // Dong socket
     }
 }
+
+
+/*
+
+List<Integer> so = new ArrayList<>(); // SUA O DAY: TreeSet thanh ArrayList
+
+for (String t : a[1].split(","))
+    so.add(Integer.parseInt(t.trim()));
+
+Collections.sort(so);               // SUA O DAY: Sap xep, giu so trung
+int min2 = so.get(1);               // SUA O DAY: So nho thu 2
+int max2 = so.get(so.size() - 2);   // SUA O DAY: So lon thu 2
+
+*/
